@@ -1,0 +1,52 @@
+*
+{
+    background-image:  linear-gradient(to right, #fd7171,#f0aa7f,#f59fdb,#a6dcf9,#bdf7ce,rgb(249, 249, 140));
+    border: 0;
+    padding: 0;
+}
+ .container 
+{
+    border-radius: 10px;
+   margin-top: 150px;
+    border: 10px outset #121111;
+    padding: 20px;
+}
+
+.controls 
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+.btn btn-primary button{
+    width: 60px;
+    height: 60px;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 40%;
+}
+h1
+{
+    color: rgb(243, 244, 248);
+}
+ h1::first-letter{
+    color: #020e2c;
+    font-style:italic;
+}
+.song 
+{
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(245, 240, 248);
+    font-style:initial;
+    font-weight: bolder;
+    line-height: 2rem;
+}
+
+.playlist 
+{
+  margin-top: 20px;
+  color: #f9f3f9;
+  font-weight: bolder;
+} 
