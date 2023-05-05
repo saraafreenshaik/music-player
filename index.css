@@ -1,52 +1,28 @@
-*
-{
-    background-image:  linear-gradient(to right, #fd7171,#f0aa7f,#f59fdb,#a6dcf9,#bdf7ce,rgb(249, 249, 140));
-    border: 0;
+*{
+    margin: 0;
     padding: 0;
-}
- .container 
-{
-    border-radius: 10px;
-   margin-top: 150px;
-    border: 10px outset #121111;
-    padding: 20px;
-}
-
-.controls 
-{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
 
 }
-.btn btn-primary button{
-    width: 60px;
-    height: 60px;
-    font-size: larger;
-    font-weight: bold;
-    border-radius: 40%;
+nav{
+   
 }
-h1
-{
-    color: rgb(243, 244, 248);
+img{
+    /* padding: 100px 100px; */
+    width: 100px;
+    height: 100px;
 }
- h1::first-letter{
-    color: #020e2c;
-    font-style:italic;
+.container-fluid{
+    background-color: #1c1f22!important;
+    background-size: contain ;
 }
-.song 
-{
-    margin-top: 20px;
-    font-size: 20px;
-    color: rgb(245, 240, 248);
-    font-style:initial;
-    font-weight: bolder;
-    line-height: 2rem;
+.align-self-center mr-3{
+    width: 100px;
+    height: 100px;
 }
-
-.playlist 
-{
-  margin-top: 20px;
-  color: #f9f3f9;
-  font-weight: bolder;
-} 
+section{
+    border-top: 2px  solid white;
+    border-bottom:2px  solid white ;
+    font-size: 10px;
+    color: aliceblue;
+    align-content: center;
+}
