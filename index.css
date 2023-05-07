@@ -1,28 +1,234 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 
 }
 nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
    
 }
-img{
-    /* padding: 100px 100px; */
+
+    /* padding: 100px 100px; 
     width: 100px;
-    height: 100px;
-}
-.container-fluid{
+    height: 100px;*/
+
+/* .container-fluid{
     background-color: #1c1f22!important;
     background-size: contain ;
-}
+} 
 .align-self-center mr-3{
     width: 100px;
     height: 100px;
+}*/
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(130, 244, 187);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
-section{
-    border-top: 2px  solid white;
-    border-bottom:2px  solid white ;
-    font-size: 10px;
-    color: aliceblue;
-    align-content: center;
+.music-palyer{
+    background-color: rgb(130, 244, 187);
+    width: 800px;
+    padding: 25px 35px;
+    text-align: center;
+    
 }
+nav .circle{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: #fff;
+    color: #02644a;
+    box-shadow: 0 5px 10px  rgba(1, 65, 39, 0.911);
+}
+.song-img{
+    width: 220px;
+    border-radius: 50%;
+    border: 8px solid #fff;
+    box-shadow: 0 10px 60px  rgba(1, 65, 39, 0.911);
+
+}
+.music-palyer h1{
+    font-size: 20px;
+    font-weight: 400;
+    color:  #024626;
+    margin-top: 20px;
+
+}
+.music-palyer p{
+    font-size: 14px;
+    line-break: 2px;
+    color: #024626;
+}
+#progress{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 6px;
+    background-color: rgba(1, 65, 39, 0.911);
+    cursor: pointer;
+    margin: 40px 0;
+}
+#progress::-webkit-slider-thumb{
+    -webkit-appearance:none;
+    background-color:rgba(1, 65, 39, 0.911);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 8px solid #fff;
+    box-shadow: 0 5px 5px rgba(1, 65, 39, 0.911);
+}
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.controls div{
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+    background: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color:  rgba(1, 65, 39, 0.911);
+    cursor: pointer;
+}
+.controls div:nth-child(2){
+    transform: scale(1.5);
+    background:  rgb(1, 55, 28);
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+{
+    background-color: rgb(40, 38, 38);
+   /* background-image:  linear-gradient(to right, #fd7171,#f0aa7f,#f59fdb,#a6dcf9,#bdf7ce,rgb(249, 249, 140)); 
+    border: 0;
+    padding: 0;
+}
+ .container 
+{
+    border-radius: 10px;
+    margin-top: 150px;
+    /* border: 10px outset #121111;
+    padding: 20px;
+}
+<img src="./musical-note.png" width="50" height="40" class="d-inline-block align-top" alt="">  Music-Player</a>
+.controls 
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+.btn btn-primary button{
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 40%;
+}
+h1
+{
+    color: rgb(243, 244, 248);
+}
+ h1::first-letter{
+    color: #020e2c;
+    font-style:normal;
+}
+.section{
+    border: 2px white;
+    border:dashed;
+    width: auto;
+    height: 60px;
+
+}
+
+
+.song 
+{
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(245, 240, 248);
+    font-style:initial;
+    font-weight: bolder;
+    line-height: 2rem;
+}
+
+.playlist 
+{
+  margin-top: 20px;
+  color: #f9f3f9;
+  font-weight: bolder;
+}  */
